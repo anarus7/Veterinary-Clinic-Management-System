@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f11701ee-ac5a-4de5-a6db-0dae6a3b0825" name="Changes" comment="Add React UI app, initial version.">
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/VeterinaryClinicBeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/controller/AppointmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/controller/MedicalRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/controller/OwnerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/controller/PatientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/corsconfig/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/dto/AppointmentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/dto/MedicalRecordDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/dto/OwnerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/dto/OwnerPatientDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/dto/PatientDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/dto/PatientMedicalRecordDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/mapper/AppointmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/mapper/MedicalRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/mapper/OwnerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/mapper/PatientMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/model/Appointment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/model/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/model/MedicalRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/model/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/model/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/model/Species.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/domain/model/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/exceptions/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/repository/AppointmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/repository/MedicalRecordRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/repository/OwnerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/repository/PatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/AppointmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/MedicalRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/OwnerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/PatientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/impl/AppointmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/impl/MedicalRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/impl/OwnerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/impl/PatientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VeterinaryClinicBE/src/test/java/com/example/demo/VeterinaryClinicBeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/cats/g0d2808031377ed21c5fa2ff78c52c8d789a2d87e964c8a4aa3edc9c3ba0ca51ea12d595149313fbf31af99e29744a0f9_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/cats/g247b8d5c40ac0a9ba125c3e2377ad3e17d9d7749225aa21b744173c6e48ef6c63b15446b869d93f854d37bc778daf783_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/cats/g29d311fe73384a37d522c4a9f961a3b0d683cb233cf837cc42e97a7bda6888625880a391ff4deb10f9c7a75f5dd75128_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/cats/g2abe8465a8c094bec261194ea3662c86306faa1166a692bdb05f48a02340a3c73e33c8d268c76efdb9ef96a36e267a07_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/cats/g5ebbf13c53894a4a1e4660b3b6cf588b0073bc1d697b1c8ca67aa6a0dc8713b888147076136ec0e1e1147955ca9e19ad_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/cats/g7dd7c60b79281adbb7f4277ba99792a8961117db025a4e522286b4b46f25f3c2ad5b3dac40b40c999133143fa3bb5b22_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/cats/ge130c2e6fefee2511ca6c487868ce1c29eebc69961767e85b98af0d8f7836a6ebc0a0e01076a4f711cda7eef1efec1d1_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/cats/ge4f77f62bfbc2e959d5d86094df12323029eb51b6031e072cb4d1de0961f671d5329682fcd4f66d17661c9f9c1b9ef36_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/dogs/g3abca40c4da012a9ee56228f8a733ab5dd0134aaf7526b60d4666d7a1ddb1b4649eda045507927c4d3bc839805a29b08_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/dogs/g94c4f67c7e412a9cd8c9edf32c2406771670a82c86d54746d87adbcce438f0811aef4ce7d3df2f8613ac3eb37fd8cfaa_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/dogs/g9d2b430c90bf10afc78e598640fec969221fc7f34596a1bc693e6e4d301f1bbc932ed5add92df5ece6cf00503a6f3a1d_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/dogs/gd06a646a419bb8ed24b30cfc82980c102f6992c316822627648575e3a7e8b3d14002b3046b82946d8fae325cc8ecf25d_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/dogs/ge220d889d83836b2e1cec0de8972f1dcc1249f04cfcedae725ef5cfee3b01621fbf02ffdf434eea1f870f4be9aace933_640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/icon.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/public/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/About.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/About.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/AddAppointmentForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/AddOwnerForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/AddPatientForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/AppointmentDetails.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/CustomButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/Dashboard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/MedicalRecordDialog.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/Owner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/Owners.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/OwnersAndPatients.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/Patient.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/Sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/Sidebar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/UpdateOwnerForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/UpdatePatientForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/i1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/i2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/i3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/i4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/card_pictures/icon9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/event-utils.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/19366.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/beam.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/cat1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/dog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/dog7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/elemenet.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/folder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/homepage1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/homepage2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/i9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon7.png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/icon9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/iowner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/owner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/owner4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/paw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/paw1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/pic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/sammy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/sky-female-support-person-helping-a-user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/user3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/pictures/user4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/vet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../veterinaryUI/vet/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2jVTjZE50LOKNcscoaFzEbZPyJW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.localhost:3000.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [site].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.VeterinaryClinicBeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rusana-maria/Desktop/licenta/VeterinaryClinicBE&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Start UI.executor&quot;: &quot;Run&quot;,
+    &quot;npm.star.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="npm.Start UI">
+    <configuration name="localhost:3000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="VeterinaryClinicBeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.VeterinaryClinicBeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start UI" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/../veterinaryUI/vet/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.localhost:3000" />
+      <item itemvalue="npm.Start UI" />
+      <item itemvalue="Spring Boot.VeterinaryClinicBeApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:3000" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f11701ee-ac5a-4de5-a6db-0dae6a3b0825" name="Changes" comment="" />
+      <created>1721471380356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721471380356</updated>
+      <workItem from="1721471381914" duration="33814000" />
+      <workItem from="1722677021868" duration="941000" />
+      <workItem from="1722678399549" duration="83103000" />
+      <workItem from="1723979373886" duration="1075000" />
+      <workItem from="1724140415310" duration="9525000" />
+      <workItem from="1726054908220" duration="12849000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add React UI app, initial version.">
+      <option name="closed" value="true" />
+      <created>1723978921481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723978921481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add React UI app, initial version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add React UI app, initial version." />
+  </component>
+</project>
