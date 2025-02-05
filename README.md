@@ -26,6 +26,12 @@ I have managed to succinctly incorporate a few simple ideas that I implemented,
 but in the future, the application can be further developed to offer
 quality services that assist the veterinarian.
 
+Install dependencies : yarn install 
+
+Frontend start : yarn start 
+
+
+
 <img width="707" alt="Screenshot 2025-01-22 at 15 18 53" src="https://github.com/user-attachments/assets/447e04a2-e093-4677-a82d-f3051df6a474" />
 
 <img width="726" alt="Screenshot 2025-01-22 at 15 18 28" src="https://github.com/user-attachments/assets/80a7d351-4a20-4ef0-bbed-a52ce49ed069" />
